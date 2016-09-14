@@ -1,0 +1,122 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="Content-Type"  content="text/html; charset=utf-8">
+<title>登录</title>
+<style type="text/css">
+*{
+    margin: 0;
+    padding: 0; 
+}
+body{
+    width: 100%;
+    font-family: "Microsoft";
+    font-size: 22px;
+    background: #eff0f4;
+}
+.daohang{  
+   width: 100%;
+   background: #5fc0cd;
+   color: white;
+   padding-top: 5%; 
+   padding-bottom: 2%; 
+   padding-left: 0.5%; 
+   padding-right: 0.5%; 
+}
+.left{
+    position: absolute;
+    top: 7%;
+    padding-left: 1%; 
+}
+.center{
+    position: absolute;
+    top: 7%;
+    left: 50%;
+     font-size: 25px;
+}
+.right{
+   position:absolute;
+    top: 7%;
+    right: 1%;
+}
+
+.pc1{
+    background: white;  
+    padding : 2%  3% ;
+    position:absolute;
+    top: 18%;
+}
+.pc2{
+    background: white;  
+    padding : 2%  3% ;
+    position: absolute;
+    top: 37%; 
+}
+.po1{
+    width: 100%;
+    background: #ffffff;
+    position: absolute;
+    top: 18%;
+    left: 7.5%;
+}
+.po2{
+    width: 100%;
+    background: #ffffff;
+    position:absolute;
+    top: 37%;
+    left: 7.5%;  
+}
+.dl{
+    width: 100%;
+    height: 70px;
+    color: white;
+    position: absolute;
+    top: 60%;
+}
+.forget{
+    float: right;
+    position: absolute;
+    top: 75%;
+    right: 5%;
+}
+a.two:link {
+    text-decoration: none;
+    font-size: 18px;
+    color:#5fc0cd;
+}
+</style>
+</head>
+
+<body>
+<div class="daohang">
+    <div class="left">
+       <span>关闭</span>
+    </div>
+    <div class="center"> 
+       <span>登录</span>
+    </div>
+    <div class="right">  
+       <span>注册</span>
+    </div>
+</div>
+
+
+     <img class="pc1" src="./images/task4_pc1.jpg">
+<div class="po1">
+    <input type="text" value="" name="pn" placeholder="请输入手机号码" 
+    style="width:93% ;height:40px;border:none;border-left: 2px solid  #eff0f4;padding-left:25px;margin-top:25px;margin-bottom:25px;font-size:20px;">
+ </div>
+     <img class="pc2" src="./images/task4_pc2.jpg">
+<div class="po2">
+   <input type="password" value="" name="pass" placeholder="请输入密码" style="width:93% ;height:40px;border:none;border-left: 2px solid  #eff0f4;padding-left:25px;margin-top:25px;margin-bottom:25px;font-size:20px;">
+</div>
+
+<div class="dl">
+    <input type="submit" value="登录" name="登录"  style="width:100%;height:70px; background: rgb(95,192,205); text-align:center;font-size:25px; color: white;letter-spacing:10px;" />  
+</div>
+<div class="forget">
+<a class="two" href="" target="_blank">忘记密码？</a>
+</div>
+</body>
+</html>
