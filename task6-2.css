@@ -22,7 +22,7 @@ div.all{
     display: inline-block;
     width: 22px;
     text-indent: -999px;
-    top: -2.5px;
+    top: -2.6px;
     left: 1.5px;
    
 }
@@ -40,7 +40,7 @@ div.all{
      border-top: 2px white solid;
 }
 .outborder{
-	width: 25px;
+	width: 26px;
 	height: 28px;
 	border: 2px white solid;
 	position: relative;

@@ -2,23 +2,38 @@
 *{
         margin: 0;
         padding: 0;   
+
 }
+body{
+	min-width: 360px;
+	
+		}
 
 .title{     
+	min-width: 900px!important;
+	width: 100%;	
+	height: auto;
 	position: relative;
-	width: 100%;
-	height: 400px;
-	background: url(./images/task7-1_backg.png) no-repeat;
-	/*background-size: 1120px 400px;*/	
 }
-.title-middle{
-	
-            width: 60%;
+.title img.bgd{
+	width: 100%;
+}
+.title-middle{	
+	width:70%;
+	margin:auto;
+	margin-top:-20%;
+	margin-bottom:10%;
+	// position: absolute;
+	// top: 30%;
+	// left: 24%;
 	color: white;
 	font-weight: bold;
-	position: absolute;
-	top: 27%;
-	left: 16%;	
+	position:relative;
+	
+}
+.title-position{
+	width: 85%;
+	margin: auto;
 }
 .title-text-top{
 	font-size: 30px;
@@ -34,15 +49,16 @@
 	font-size: 60px;
 }
 .left-img{
-	display: block;
 	position: absolute;
-	top: 35%;
-	left: 15%;
-}.right-img{
-	display: block;
+	top: 25%;
+	left: 3%;
+	// float:left;
+	// margin-top:-10%;
+}
+.right-img{
 	position: absolute;
-	top: 35%;
-	left: 82%;
+	top: 25%;
+	left: 94%;
 }
 .circle{
 	width: 8px;
@@ -54,39 +70,45 @@
 }
 .circle-position{
 	position: absolute;
-	top: 92%;
+	top: 125%;
 	left: 50%;
 }
 
 .body{
 	width: 100%;
 	background:#fafafa;
+	padding-top: 50px;
 	font-size: 12px;
 	letter-spacing: 2px;
 	line-height: 18px;
+	width: 100%;
 
 }
+
 .body-top{
-	margin-left: 12%;
+	padding-top: 5%;
 	margin-top: 7%;
-	overflow: hidden;
+	// width: 90%;
+	// margin: auto!important;
 }
-
-.body-top-efficient{
-	width: 180px;
-	height: 150px;
-	float: left;
-	margin: 35px;
-}
+// .ccc{
+// 	margin-left: 16%;
+// }
 
 .body-top-icon1{
 	display: block;
 	margin: auto;
+
 }
-.body-top h3{
+.body h3{
 	width: 100%;
 	margin-top: 18px;
 	margin-bottom: 18px;
+
+}
+.body-top-line{
+	margin-top:15px!important;
+	margin-bottom:15px!important;
 
 }
 .body-top p{
@@ -94,76 +116,82 @@
 	letter-spacing: 2px;
 	line-height: 18px;
 }
-.body-top-right{
-	width: 200px;
+.body-top-right{	
 	height: 180px;
-	float: left;
-	margin:55px 35px;
+	// margin-left: 5%;
 	border-left:  1px #6c7683 dashed;
-	display: table;
+	width:100%;
+	// margin:auto;
+	// display: table;
+	// border:1px red solid;
 }
 .body-top-right-text{
-	padding-left: 65px;
-	display: table-cell;
-	vertical-align: middle;
+	// display: table-cell;
+	// vertical-align: middle;
+	width:70%;
+	margin:auto;
+	margin-top:35px;
+	// border:1px red solid;
 	font-size: 14px;
 	letter-spacing: 2px;
-	line-height: 25px;
-	
+	line-height: 25px;	
 }
 .body-top-right-color{
 	color: #29b078;
 	font-weight: bold;
 }
-
-
-
-
-
 .body-study{
-	
-
 }
 .body h3{
 	text-align: center;
-
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 60px;
+	margin-bottom: 30px;
 }
 .body-study-neir{
-	width: 75.5%;
-	
-	margin-left: 12%;
-	margin-top: 40px;
+	margin-top: 45px;	
 	overflow: hidden;
+	// margin:auto;
+	// width:100%;
+	// border:1px red solid;
+	// padding-left:28%;
 
 }
+
+.clear{
+	clear:both;
+}
 .body-number{
-	width: 36px;
+	float: left;
+	width: 36px!important;
 	height: 36px;
 	border-radius: 18px;
 	border:1px #29b078 solid;
+	margin-bottom: 10%;
 	background: white;
 	color: #29b078;
 	font-size: 18px;
-	text-align: center;
-	line-height: 36px;
-	float: left;
-	margin-left: 12px;
+	text-align: center!important;
+	line-height: 36px;	
 }
 .body-text{
 	float: left;
-	width: 150px;
-	height: 36px;
-	margin:  0px 12px;
-	line-height: 36px;
-	
+	width: 130px;	
+	margin-left: 25px;
+	margin-bottom: 10%;	
 }
-.body-text-line{
-	margin-top: 10px;
-	height: 40px;
-}/*单行居中对齐和把序号5挤下去*/
+.body-text-ver{
+	height:40px;
+	line-height: 40px;
+
+}
 .body-arrow{
 	float: left;
-	margin: 12px;
+	margin-left: 50px;
+	margin-top: 10px;
+	margin-bottom: 10%;
+	
 }
 .body-none{
 	width: 100%;
@@ -171,46 +199,42 @@
 	float: left;
 }
 
-
-
 .body-bottom{
 	margin-top: 55px;
 	margin-left: 12%;
 	position: relative;
 	overflow: hidden;
-
 }
-.body-bottom h3{
-	margin-left: -13%;
-	text-align: center;}
-	/*居中存在问题*/
+
+.rela{
+	position: relative;
+	background: 
+}
 .body-student{
-	text-align: center;
+	text-align: center!important;
 	margin-top: 40px;
 }
 
 .body-student-data{
-	width: 190px;
-	height: 280px;
-	float: left;
+	height: 280px;	
 	background: white;
 	padding: 20px 15px;
-	margin: 16px;
-
 }
 .body-student-avatar{
-	text-align: center;
+	width: 100px;
+	margin: auto;
+
 }
 .body-student-data h3{
 	text-align: center;
-	margin-top: 15px;
-	margin-bottom: 15px;
-	}
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
 
 .body-bottom-circle-position{
 	position: absolute;
-	left: 40%;
-	top: 385px;
+	left: 45%;
+	top: 109%;
 }
 .body-bottom-circle{
 	width: 10px;
@@ -226,40 +250,46 @@
 
 
 
-
 .business-parters{
 	margin-top: 65px;
 	height: 300px;
 
-
 }
-.business-parters h3{
-	text-align: center;
+.parters{
+	margin-bottom:25px;
+}
+.business-parters img{
+	height: 70px;
+	margin-bottom:65px;
+
 }
 
 
 .f-link{
+	width: 100%;
 	background:white;
+	margin-left: 15%;
+	margin-top:45px;
 	overflow: hidden;
 }
 .f-link h3{
 	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
 }
-.f-link-position{
-	margin-left: 12%;
+.f-link-position{	
 	margin-top: 5px;
-}
-.f-link-float{
-
+	margin-left: 15%!important;
 }
 .f-link ul{
+	height: 50px;
 	font-size: 12px;
-	line-height: 25px;
-	float: left;
-	margin: 5px 34px ;
+	line-height: 25px;		
 }
 .f-link-border{
 	border-bottom: 2px #29b078 solid;
+	
+
 }
 
 
